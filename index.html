@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EX3</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	</head>
+<body id="body">
+	<script src="main.js"></script>
+	<div class="container mt-3 mb-3 p-1" id="main">
+		<div class="container mt-3 mb-3 p-5" id="title">
+			<h4>Grade Status</h4>
+			<hr id="hr">
+		</div>
+		<div class="container mb-2 mt-3" id="verification">
+			<form>
+				<div class="row">
+					<div class="col">
+						<label for="inputName">Enter Name:</label>
+						<input type="text" class="form-control" id="inputName" placeholder="Enter your full name here." onchange="changetoCapital()" required>
+						<br>
+						<label for="inputEmail">Enter Email:</label>
+						<input type="email" class="form-control" id="inputEmail" placeholder="Enter your full email address here." required>
+					</div>
+					<div class="col">
+						<label for="inputAge">Enter Age:</label>
+						<input type="number" class="form-control" id="inputAge" placeholder="Enter your age here." required>
+						<br>
+						<label for="inputGrade">Enter Grade:</label>
+						<input type="number" class="form-control" id="inputGrade" placeholder="Enter your age here." required>
+					</div>
+				</div>
+			</form>
+			<br>
+			<div class="container p-2" id="verifyContainer">
+				<div class="row mb-3">
+					<div class="col">
+					</div>
+					<div class="col">
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-primary btn-outline-dark" id="buttons" onclick="determineGrade()">See Status</button>
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-primary btn-outline-dark" id="buttons" onclick="window.location.reload()">Refresh</button>
+					</div>
+					<div class="col">
+					</div>
+					<div class="col">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid fixed-bottom" id="footer">
+		<h4 class="mt-2">Calvin Garcia | 9-Topaz</h4>
+	</div>
+</body>
+</html>

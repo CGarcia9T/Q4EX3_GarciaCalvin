@@ -1,0 +1,25 @@
+#buttons {
+	color: #ffffff;
+}
+#verifyContainer {
+	text-align: center;
+}
+#title {
+	text-align: center;
+}
+#hr {
+	background-color: #ffffff;
+}
+#body {
+	background-color: #2C3D55;
+	color: #ffffff;
+	font-family: courier;
+}
+#footer {
+	background-color: #3E4C5E;
+	text-align: center;
+}
+#main {
+	background-color: #3E4C5E;
+	border-radius: 20px;
+}
